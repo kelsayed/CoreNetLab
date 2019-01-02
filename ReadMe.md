@@ -37,9 +37,9 @@ The purpose of this github repository is two things:
 
    a. [Introduction Lab](./IntroLab.md)
 
-   b. [TCP Performance Labs](./TCPPerfLab,md)
+   b. [TCP Performance Labs](./TCPPerfLab.md)
 
-   c. [OSPF Lab](./OSPFLab,md)
+   c. [OSPF Lab](./OSPFLab.md)
 
 ## How To Contribute
 If you like these set of experiments, you can contribute by using normal [github pull](https://github.com/kelsayed/CoreNetLab/pulls) requests. 
