@@ -37,18 +37,18 @@ This lab assumes you have already installed the VCore virtual machine and starte
 10. Change link parameters on the path between n8 and n7 like delay, loss, capacity, and watch how ping performance behaves. Note that links are not symmetric and you may need to configure both directions.
 
 11. Run iperf3 performance tool to generate traffic and measure throughput/delays. More about iperf3 will be provided later. For now, do the following:
-    1. On n8 run an iperf3 server, issue the command: 
-	`iperf3 --s --D`
-	This means the following: 
-​    `--s` run as server
-​    `--D` run as daemon (run the process disconnected in the background)
-    2. On n7 run an iperf3 tcp client, issue the command
-	`iperf3 --c 10.0.3.20 --t 1000 --i 10 --w 4k`
-	This means the following: 
-	`--c` client run as client with 10.0.3.20 being address of node n8 at which iperf3 server executes
-	`--t` 1000 run for duration of 1000 seconds
-	`--i` 10 report results every 10 seconds 
-	`--w 4k` use TCP window size of 4 kbytes.
+    1. On n8 run an iperf3 server, issue the command:\ 
+	`iperf3 --s --D`\
+	This means the following:<br/> 
+​    `--s` run as server\
+​    `--D` run as daemon (run the process disconnected in the background)\
+    2. On n7 run an iperf3 tcp client, issue the command\
+	`iperf3 --c 10.0.3.20 --t 1000 --i 10 --w 4k`\
+	This means the following:\ 
+	`--c` client run as client with 10.0.3.20 being address of node n8 at which iperf3 server executes\
+	`--t` 1000 run for duration of 1000 seconds\
+	`--i` 10 report results every 10 seconds\ 
+	`--w 4k` use TCP window size of 4 kbytes\
 
 12. More information on iperf3 can be found [here](https://fasterdata.es.net/performance-testing/network-troubleshooting-tools/iperf-and-iperf3/)
 

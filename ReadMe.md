@@ -35,11 +35,11 @@ The purpose of this github repository is two things:
 
 3. You are now ready to work on the labs. It is recommended to start with the Introduction lab.
 
-   a. [Introduction Lab](https://github.com/kelsayed/CoreNetLab/IntroLab.md)
+   a. [Introduction Lab](./IntroLab.md)
 
-   b. [TCP Performance Labs](https://github.com/kelsayed/CoreNetLab/TCPPerfLab,md)
+   b. [TCP Performance Labs](./TCPPerfLab,md)
 
-   c. [OSPF Lab](https://github.com/kelsayed/CoreNetLab/OSPFLab,md)
+   c. [OSPF Lab](./OSPFLab,md)
 
 ## How To Contribute
 If you like these set of experiments, you can contribute by using normal [github pull](https://github.com/kelsayed/CoreNetLab/pulls) requests. 
