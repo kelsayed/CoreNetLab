@@ -41,17 +41,17 @@ This questions for this part are based on the path between n7 and n11.
 
 For each case of the following, run iperf3 client from n7 to n11 with window size 4K.
 
-1. Select link between n4 and n5, configure it to have capacity of 10 Mbps with zero loss in both directions.
+a. Select link between n4 and n5, configure it to have capacity of 10 Mbps with zero loss in both directions.
 
-2. Select link between n4 and n5, configure it to have capacity of 3 Mbps with zero loss in both directions.
+b. Select link between n4 and n5, configure it to have capacity of 3 Mbps with zero loss in both directions.
 
-3. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 5% loss in both directions.
+c. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 5% loss in both directions.
 
-4. Select link between n4 and n5, configure it to have capacity of 100 Mbps with 10% loss in both directions.
+d. Select link between n4 and n5, configure it to have capacity of 100 Mbps with 10% loss in both directions.
 
-5. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 1% loss in direction from n4 to n5 and 0% loss in the other direction.
+e. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 1% loss in direction from n4 to n5 and 0% loss in the other direction.
 
-6. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 0% loss in direction from n4 to n5 and 1% loss in the other direction.
+f. Select link between n4 and n5, configure it to have capacity of 10 Mbps with 0% loss in direction from n4 to n5 and 1% loss in the other direction.
 
 ### **Questions**
 
