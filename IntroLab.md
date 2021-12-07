@@ -60,10 +60,10 @@ This lab assumes you have already installed the VCore virtual machine and starte
 15. Wireshark (a network packet analyser) will start and may report some error message, ignore it.
 
 16. Start a wireshark capture, select **psedu-device that captures all interfaces** as shown below.
-     ![WireSharkCap](./images/wiresharkcap.png)
+     ![WireSharkCap](./Images/wiresharkcap.png)
 
 17. From wireshark menu select capture, you will get a dialog as in the above picture. Go to the capture filter and write tcp (or udp). Start a traffic session using iperf3 and make sure you observe packets in the wireshark window (see picture below). Click on a packet and have a look at the headers of the different layers, TCP, IP, Ethernet.
-     ![WireSharkPack](./images/wiresharkpack.png)
+     ![WireSharkPack](./Images/wiresharkpack.png)
 
 18. Open File Manager on Linux and get familiar with browsing and opening files etc. You can find a folder called /home/core/Documents where some important documents to be used in the other labs can be found.
 
